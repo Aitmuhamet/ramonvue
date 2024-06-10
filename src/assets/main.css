@@ -1,0 +1,41 @@
+
+@font-face {
+  font-family: 'FiraCode';
+  src: url('fonts/FiraCode-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'FiraCode';
+  src: url('fonts/FiraCode-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'FiraCode';
+  src: url('fonts/FiraCode-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'FiraCode';
+  src: url('fonts/FiraCode-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+
+.btn {
+  margin: 0px;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  border: 1px solid rgb(255, 152, 0);
+  background: transparent;
+  color: rgb(51, 51, 51);
+  transition: all 0.1s ease 0s;
+}
+.btn:hover {
+  border: 1px solid transparent;
+  background: rgb(255, 152, 0);
+  color: rgb(255, 255, 255);
+}
