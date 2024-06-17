@@ -1,29 +1,50 @@
-# ramapi
+# The Rick and Morty API
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a frontend application built with Vue.js that fetches data about characters from the legendary animated series Rick and Morty via an API using axios. The application also provides the ability to filter characters by name and status (alive, dead, or unknown).
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Fetch character data via API
+- Filter characters by name
+- Filter characters by status (alive, dead, unknown)
 
-## Customize configuration
+## Technologies Used
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- [Vue.js](https://vuejs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Axios](https://axios-http.com/)
 
-## Project Setup
+## Requirements
 
-```sh
-npm install
-```
+- Node.js
+- npm
 
-### Compile and Hot-Reload for Development
+## Installation
 
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Aitmuhamet/ramonvue.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd ramonvue
+    ```
+3. Install the dependencies:
+    ```sh
+    npm install
+    ```
+
+## Running the Project
+
+To run the project in development mode, execute:
 ```sh
 npm run dev
 ```
-
-### Compile and Minify for Production
-
+To build the project, execute:
 ```sh
 npm run build
 ```
+
+## Deployment on GitHub Pages
+The application is also available on GitHub Pages:
+https://aitmuhamet.github.io/ramonvue/
